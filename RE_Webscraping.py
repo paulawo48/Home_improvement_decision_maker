@@ -83,7 +83,7 @@ def data_extraction():
         #Write data to file
         thewriter.writerow([price,beds,baths,loft,garden,prop_type, pcode])
 
-# Execture file, firstly chosing whether to overwrite or append file
+# Execute file, firstly chosing whether to overwrite or append file
 if __name__ == "__main__":
     modification = input('To overwrite file, print w.To append, print a:').lower()
     if modification == 'w':
