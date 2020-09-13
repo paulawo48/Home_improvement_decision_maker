@@ -5,4 +5,4 @@ This project focuses on using python and jupyter notebook to predict house price
 
 It uses a python script to webscrap the desired data from the Zoopla seachpage, using beautiful soup, before reading the data into a CSV table.
 
-The jupter notebook then uses pandas, numpy and matplotlib to describe and analyse the csv datafile before using a regression model to predict the house prices.
+The jupter notebook then uses pandas, numpy and matplotlib to describe and analyse the csv datafile before using different Machine learning models to find the best predictor of house prices.
